@@ -12,10 +12,11 @@
   "author": "",
   "license": "ISC",
   "eslintConfig": {
-        "env": {
-            "browser": true,
-            "mocha": true
-        }},
+    "env": {
+      "browser": true,
+      "mocha": true
+    }
+  },
   "devDependencies": {
     "jquery": "^2.2.1",
     "babel-core": "^6.2.1",
@@ -32,6 +33,7 @@
     "eslint-config-rallycoding": "^3.1.0"
   },
   "dependencies": {
+    "axios": "^0.15.3",
     "babel-preset-stage-1": "^6.1.18",
     "lodash": "^3.10.1",
     "react": "^0.14.3",
